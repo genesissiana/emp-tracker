@@ -1,7 +1,7 @@
 const db = require('./db/connection.js');
-const mainMenu = require('./lib/prompt.js');
+const mainMenu = require('./lib/Prompt.js');
 
-const Prompt = require('./lib/Prompt.js/index.js');
+const Prompt = require('./lib/Prompt.js');
 
 
 db.connect(err => {
