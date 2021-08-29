@@ -1,7 +1,7 @@
 INSERT INTO departments (name)
 VALUES
 ('Sales'),
-('Engineering'),
+('Marketing'),
 ('Finance'),
 ('Legal'),
 ('Human Resources');
@@ -10,24 +10,24 @@ INSERT INTO roles (title, salary, department_id)
 VALUES
 ('Salesperson', 80000, 1),
 ('Sales Lead', 100000, 1),
-('Engineer', 120000, 2),
-('Lead Engineer', 150000, 2),
+('Marketing', 120000, 2),
+('Marketing Lead', 150000, 2),
+('Marketing Director', 190000, 2),
 ('Accountant', 125000, 3),
-('Chief Financial Officer', 300000, 3),
-('Lawyer', 190000, 4),
-('Legal Team Lead', 250000, 4),
+('Financial Director', 300000, 3),
+('Accountant Lead', 250000, 4),
 ('Human Resources Employee', 80000, 5),
 ('Human Resources Director', 100000, 5);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-('Jon', 'Donkowski', 1, 2),
-('Mike', 'Chan', 2, null),
-('Ashley', 'Rodriguez', 3, 4),
-('Kevin', 'Tupik', 4, null),
-('Malia', 'Brown', 5, 6),
-('Sarah', 'Lourd', 6, null),
-('Tom', 'Allen', 7, 8),
-('Jackie', 'Meyer', 8, null),
-('Tyson', 'Mack', 9, 10),
-('Rebecca', 'Flounder', 10, null);
+('Jon', 'Stark', 1, 2),
+('Mike', 'Stormborn', 2, null),
+('Ashley', 'Baratheon', 3, 4),
+('Kevin', 'Thormund', 4, null),
+('Malia', 'Snow', 5, 6),
+('Sarah', 'Lannister', 6, null),
+('Tom', 'Bolton', 7, 8),
+('Jackie', 'Tully', 8, null),
+('Tyson', 'Greyjoy', 9, 10),
+('Rebecca', ' Varys', 10, null);
