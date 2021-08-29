@@ -1,16 +1,11 @@
-const mysql = require("mysql"); 
-const util = require("util"); 
+const mysql = require('mysql2');
 
-const connection = mysql.createConnection({
-    port: 3306,
-    host     : 'localhost',
-    user     : 'root',
-    password : 'kilokilo',
-    database : '',
-  });
-   
-  connection.connect();
+// Connect to database
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'kilokilo!',
+    database: 'employee_tracker'
+});
 
-  connection.query = util.promisify(connection.query); 
-    
- module.exports = connection; 
+module.exports = db;
