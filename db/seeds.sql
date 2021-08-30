@@ -21,13 +21,13 @@ VALUES
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-('Jon', 'Stark', 1, 2),
-('Mike', 'Stormborn', 2, null),
-('Ashley', 'Baratheon', 3, 4),
-('Kevin', 'Thormund', 4, null),
-('Malia', 'Snow', 5, 6),
-('Sarah', 'Lannister', 6, null),
-('Tom', 'Bolton', 7, 8),
-('Jackie', 'Tully', 8, null),
-('Tyson', 'Greyjoy', 9, 10),
-('Rebecca', ' Varys', 10, null);
+('Sansa', 'Stark', 1, 2),
+('Daenerys', 'Targaryen', 2, null),
+('Stannis', 'Baratheon', 3, 4),
+('Thormund', 'Giantsbane', 4, null),
+('Jon', 'Snow', 5, 6),
+('Cersei', 'Lannister', 6, null),
+('Something', 'Bolton', 7, 8),
+('Sam', 'Tully', 8, null),
+('Theon', 'Greyjoy', 9, 10),
+('Lord', 'Varys', 10, null);
