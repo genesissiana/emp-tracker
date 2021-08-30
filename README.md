@@ -10,7 +10,7 @@ As a business owner, you will be able to view and manage the departments, roles,
 ## Demo
 ![Employee Tracker](assets/images/emp-tracker.gif)
 
-![Video Here](https://youtu.be/U_i22KTMTvs)
+![](https://youtu.be/U_i22KTMTvs)
 
 ## Technologies 
 * JavaScript 
@@ -19,3 +19,6 @@ As a business owner, you will be able to view and manage the departments, roles,
 * MySQL2
 * Inquirer 
 * Console Table
+
+## Contribution 
+made by Gen 
